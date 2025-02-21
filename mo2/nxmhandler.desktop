@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Game
+Exec=bash -c '"$HOME/Programs/MO2/nxmhandler.sh" "$@"' '$HOME/Programs/MO2/nxmhandler.sh' %u
+MimeType=x-scheme-handler/nxm
+Name=Mod Organizer 2 NXM Handler
+NoDisplay=true
+StartupNotify=false
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
