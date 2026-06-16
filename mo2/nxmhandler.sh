@@ -19,4 +19,4 @@ mo2_dir="$HOME/Programs/MO2"
 game_appid="2194124069"
 
 # Send the download to the running Mod Organizer 2 instance.
-download_start=$(WINEESYNC=1 WINEFSYNC=1 protontricks-launch --appid "$game_appid" "$mo2_dir/nxmhandler.exe" "$nxm_link")
+download_start=$(WINEESYNC=1 WINEFSYNC=1 protontricks-launch --no-bwrap --appid "$game_appid" "$mo2_dir/nxmhandler.exe" "$nxm_link")
